@@ -1,5 +1,5 @@
-#ifndef EXPIRINGSTORAGE_H
-#define EXPIRINGSTORAGE_H
+#ifndef QTSTORAGE_EXPIRINGSTORAGE_H
+#define QTSTORAGE_EXPIRINGSTORAGE_H
 
 #include <QMap>
 #include <QTimer>
@@ -143,4 +143,4 @@ QTimer * ExpiringStorage<K, V>::createTimer(const K & key)
 
 }
 
-#endif // EXPIRINGSTORAGE_H
+#endif // QTSTORAGE_EXPIRINGSTORAGE_H
